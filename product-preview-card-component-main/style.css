@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2? family= Fraunces:opsz,wght@9..144,700 & display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap");
+@import url("https://fonts.googleapis.com/css2? aile= Fraunces:opsz,wght@9..144,500;9..144,700 &aile= Montserrat:wght@700 & display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(30, 38%, 92%);
+}
+section {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  height: 450px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+}
+.images {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.title {
+  width: 50%;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: hsl(0, 0%, 100%);
+  padding-left: 5%;
+}
+#perfume {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10%;
+  margin-bottom: 6%;
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+h1 {
+  font-family: "Fraunces", serif;
+  font-size: 38px;
+  margin-bottom: 8%;
+  line-height: 40px;
+  color: hsl(212, 21%, 14%);
+}
+#chanel {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-bottom: 6%;
+  line-height: 20px;
+  color: hsl(228, 12%, 48%);
+  margin-right: 15%;
+}
+.container {
+  display: inline-flex;
+  color: hsl(212, 21%, 14%);
+  margin-bottom: 8%;
+}
+#cash {
+  color: hsl(158, 39%, 28%);
+  font-family: "Fraunces", serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+#btn {
+  text-decoration: line-through;
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  margin-top: 6%;
+  margin-left: 15%;
+  font-size: small;
+}
+button {
+  padding: 5%;
+  background-color: hsl(158, 39%, 28%);
+  border: none;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  letter-spacing: 1px;
+  width: 85%;
+  border-radius: 10px;
+  font-family: "Fraunces", sans-serif;
+  cursor: pointer;
+}
+button:hover {
+  background-color: hsl(157, 37%, 19%);
+  transition: 0.5s;
+}
